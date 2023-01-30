@@ -1,0 +1,20 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  /* position: fixed; */
+  width: 100vw;
+  background-color:darkred;
+  padding: 32px;
+  flex-direction: row;
+}
+.costmize {
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav .active {
+  font-weight: 800;
+}
+.nav {
+  color: white;
+  text-decoration: none;
+}
